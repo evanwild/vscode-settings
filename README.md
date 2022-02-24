@@ -13,18 +13,15 @@ My good-looking VS Code settings for JS/React development.
 
 ```json
 {
-  // Cursor
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": true,
 
-  // Font
   "editor.fontFamily": "Monaco",
   "editor.fontSize": 16,
   "terminal.integrated.fontSize": 16,
   "editor.letterSpacing": 0.5,
   "editor.lineHeight": 25,
 
-  // Colors
   "workbench.colorTheme": "Panda Syntax",
   "workbench.iconTheme": "material-icon-theme",
   "editor.bracketPairColorization.enabled": true,
@@ -36,7 +33,6 @@ My good-looking VS Code settings for JS/React development.
     }
   },
 
-  // JavaScript & React
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.formatOnPaste": true,
