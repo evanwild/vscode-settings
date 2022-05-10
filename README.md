@@ -2,10 +2,12 @@
 
 My good-looking VS Code settings for JS/React development.
 
+### Font
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+
 ### Extensions
 
-- [Alabaster Theme](https://marketplace.visualstudio.com/items?itemName=tonsky.theme-alabaster)
-- [Rubber Theme](https://marketplace.visualstudio.com/items?itemName=apust.rubber-theme)
+- [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
@@ -14,20 +16,18 @@ My good-looking VS Code settings for JS/React development.
 
 ```json
 {
-  "editor.cursorBlinking": "expand",
+  "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
 
-  "editor.fontFamily": "Monaco",
+  "editor.fontFamily": "Jetbrains Mono",
   "editor.fontSize": 16,
   "terminal.integrated.fontSize": 16,
   "editor.letterSpacing": 0.5,
   "editor.lineHeight": 25,
 
+  "workbench.colorTheme": "GitHub Dark",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.preferredLightColorTheme": "Alabaster",
-  "workbench.preferredDarkColorTheme": "Rubber",
-  "window.autoDetectColorScheme": true,
-  "workbench.colorTheme": "Rubber",
+  "editor.bracketPairColorization.enabled": true,
 
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
@@ -39,5 +39,4 @@ My good-looking VS Code settings for JS/React development.
     "javascript": "javascriptreact"
   }
 }
-
 ```
